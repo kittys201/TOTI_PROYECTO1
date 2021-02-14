@@ -59,7 +59,7 @@ header{
     grid-template-rows: 10vw 1fr;
     grid-template-areas: ". Menu-nav Menu-nav Menu-nav"
                         "Meu-nome Meu-nome Foto-header Foto-header" ;
-    background-color: black;
+    background-color: rgb(23, 89, 150);
     align-items: center;
     justify-items: center;
 
@@ -77,7 +77,7 @@ header{
     color: white;
     font-size: 4.5vw;
     font-family: 'Rubik', sans-serif;
-    text-align: center;
+     text-align: center;
     line-height: 5vw;
     padding-left: 5vw;
     padding-top: 6vw;
@@ -246,13 +246,13 @@ header nav a:hover{
     font-weight: bold;
 }
 
-.Logo-universidade1{
+.logo_upel{
     width: 9vw;
     position: relative;
     left: -10vw;
 }
 
-.Logo-universidade2{
+.Logo_UEN_Gran_Colombia{
     width: 12vw;
     position: relative;
     left: -16vw;
@@ -276,7 +276,7 @@ header nav a:hover{
     padding-bottom: 4vw;
 }
 
-.Logo-Aquario{
+.logo_Igresia_de_Jesus_Cristo_SUD{
     border-radius: 50%;
     width: 7vw;
     height: 7vw;
