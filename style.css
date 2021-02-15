@@ -59,7 +59,7 @@ header{
     grid-template-rows: 10vw 1fr;
     grid-template-areas: ". Menu-nav Menu-nav Menu-nav"
                         "Meu-nome Meu-nome Foto-header Foto-header" ;
-    background-color: rgb(23, 89, 150);
+    background-color: rgb(85, 182, 211);
     align-items: center;
     justify-items: center;
 
@@ -318,8 +318,8 @@ header nav a:hover{
     left: -22vw;
 }
 #Experiência{
-    background-color: #434343;
-    color: #999999;
+    background-color: rgb(85, 182, 211);
+    color: white;
     display: flex;
     flex-direction: column;
     padding: 5vw 0vw 4vw 0vw;
