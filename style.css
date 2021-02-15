@@ -65,6 +65,19 @@ header{
 
 }
 
+.top {
+ 
+    top: 0;
+    position: fixed;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background: rgb(26, 24, 24);
+    box-shadow: 0px 3px 4px rgba(10, 8, 8, 0.3);
+}
+
 .Menu-nav{
     display: flex;
     grid-area: Menu-nav;
@@ -95,7 +108,7 @@ header{
 header nav{
     display: inline-flex;
     flex-wrap: wrap;
-    font-size: 2vw;
+    font-size: 2.2vw;
     font-family: 'Rubik', sans-serif;
     
 }
@@ -106,7 +119,7 @@ header nav a{
 }
 
 header nav a:hover{
-    text-decoration: yellow overline;
+    text-decoration: red underline;
     line-height: 20px;
     padding-top: 2vw;
     font-size: 2.5vw;    
@@ -118,26 +131,29 @@ header nav a:hover{
     
 }
 
-.Logo1{
+.Logo1 img{
     display: flex;
     position: absolute;
-    top: 3.5vw;
+    top: 0.5vw;
     left: 9vw;
-    width: 15vw;
-    height: 15vw;
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+
 }
 
-.Linked-in{
+.Linked-in img{
     display: flex;
     position: absolute;
     top: 10vw;
     right: 7vw;
     width: 6vw;
     height: 6vw;
+    border-radius: 50%
 }
 
 .Linked-in>img:hover, .Git-hub>img:hover, .Stack-overflow>img:hover{
-    border-right: 6px solid yellow;
+    border-right: 8px solid red;
     padding-right: 20px;
 }
 
@@ -146,22 +162,24 @@ header nav a:hover{
     height: 7vw;
 }
 
-.Git-hub{
+.Git-hub img{
     display: flex;
     position: absolute;
     top: 19vw;
     right: 5vw;
     width: 6vw;
-    height: 6vw;    
+    height: 6vw;
+    border-radius: 50%;    
 }
 
-.Stack-overflow{
+.Stack-overflow img{
     display: flex;
     position: absolute;
     top: 28vw;
     right: 7vw;
     width: 6vw;
-    height: 6vw;    
+    height: 6vw; 
+    border-radius: 50%;    
 }
 
 #Bio{
@@ -174,9 +192,10 @@ header nav a:hover{
 }
 
 .Imagem-Bio img{
-    width: 50vw;
+    width: 30vw;
     align-self: center;
-    justify-self: center;    
+    justify-self: center; 
+    border-radius: 50%;    
 }
 .Texto-Bio p:first-child{
     font-size: 7vw;
@@ -246,16 +265,19 @@ header nav a:hover{
     font-weight: bold;
 }
 
-.logo_upel{
-    width: 9vw;
+.Logo-universidade1{
+    width: 7vw;
     position: relative;
-    left: -10vw;
+    left: -2vw;
+    border-radius: 10%;
+   
 }
 
 .Logo_UEN_Gran_Colombia{
-    width: 12vw;
+    width: 10vw;
     position: relative;
-    left: -16vw;
+    left: -22vw;
+    border-radius: 10%;
 }
 
 #Experiência{
@@ -277,21 +299,41 @@ header nav a:hover{
 }
 
 .logo_Igresia_de_Jesus_Cristo_SUD{
-    border-radius: 50%;
-    width: 7vw;
-    height: 7vw;
+    border-radius: 15%;
+    width: 10vw;
+    height: 10vw;
 }
 
-.Logo-DCT{
-    width: 7vw;
-    height: 7vw;
+.Logo-freelancer{
+    width: 10vw;
+    border-radius: 15%;
+    
 }
 
-.Logo-PUC{
-    border-radius: 50%;
-    width: 7vw;
-    height: 7vw;
+.Logo-mi-youtube{
+    margin-top: 30px;
+    border-radius: 15%;
+    width: 10vw;
+    height: 10vw;
+    left: -22vw;
 }
+#Experiência{
+    background-color: #434343;
+    color: #999999;
+    display: flex;
+    flex-direction: column;
+    padding: 5vw 0vw 4vw 0vw;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+#Experiência h2{
+    font-size: 4vw;
+    font-weight: bold;
+    padding-bottom: 4vw;
+}
+
 
 #Experiência div div{
     display: flex;
@@ -524,4 +566,5 @@ footer div:first-child{
 footer div img{
     width: 5vw;
     height: 5vw;
+    border-radius: 50%;
 }
