@@ -379,7 +379,8 @@
 }
 
 body {
-  background-image: url(/images/FONDO.jpg);
+  background-color: black;
+  /*background-image: url(/images/FONDO.jpg);*/
   color: white;
  }
 
